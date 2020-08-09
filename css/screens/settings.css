@@ -1,0 +1,63 @@
+.setting-screen {
+  height: 110vh;
+}
+
+.settings__setting,
+.settings__setting-below {
+  padding: 20px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting-below i,
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.settings__setting-below,
+.settings__setting:not(:nth-child(3)) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.setting-divider {
+  border-top: var(--main-border);
+  margin-top: 20px;
+  padding-top: 38px;
+}
+
+.settings__setting-column:last-child {
+  color: var(--grey-text);
+}
+
+.setting-list {
+  marigin-bottom: 15px;
+}
+.settings-list__extra {
+  margin-top: 15px;
+}
+
+.setting__notification-position {
+  position: relative;
+}
+.settings__setting-column {
+  position: relative;
+}
+.setting__notification {
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 110px;
+  top: 3px;
+}
