@@ -1,0 +1,141 @@
+.profile {
+  height: 100vh;
+}
+
+.profile-screen__background {
+  background-size: cover;
+  width: 100%;
+}
+.profile-ano {
+  background-image: url("../../screenshots/she.png");
+}
+
+.profile-hong {
+  background-image: url("https://i.pinimg.com/originals/b0/b9/c2/b0b9c29baa5328786c84fee4d8819f10.jpg");
+}
+
+.profile-gold {
+  background-image: url("https://i.pinimg.com/236x/f9/85/16/f985165b158b5602f70a738413b620cd.jpg");
+}
+
+.profile-avatar:hover img {
+  transform: scale(1.1);
+}
+
+.profile-screen__background img {
+  width: 85px;
+  height: 85px;
+  border-radius: 35px;
+}
+
+.profile-playlist__column {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__playlist {
+  border: hidden;
+  background-color: black;
+  border-radius: 17px;
+  padding: 5px 10px;
+  font-size: 13px;
+  color: white;
+  opacity: 0.7;
+}
+
+.profile__playlist:hover {
+  opacity: 1;
+}
+
+.alt-header__profile {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.alt-header__profile .fa-gift {
+  margin-right: 25px;
+}
+
+.profile-avatar {
+  margin-top: 250px;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.profile-avatar,
+.profile-avatar span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-avatar__status,
+.profile-avatar__name {
+  color: white;
+  padding-top: 5px;
+}
+
+.profile-avatar__name {
+  font-size: 16px;
+}
+
+.profile-avatar__status {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.icon-row__profile {
+  border-top: var(--main-border);
+}
+
+.icon-row__profile .icon-row__icon {
+  margin-top: 30px;
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 100px;
+}
+
+.icon-row__icon span {
+  font-size: 13px;
+}
+.icon-row__icon i {
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+.icon-row__icon:hover {
+  opacity: 1;
+}
+
+.profile-playlist__row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.profile-playlist__large,
+.profile-playlist__row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-play__title {
+  font-size: 16px;
+  padding: 5px 0px;
+}
+
+.profile-play__singer {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.profile-playlist__large .profile-playlist__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

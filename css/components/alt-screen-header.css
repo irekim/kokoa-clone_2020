@@ -1,10 +1,21 @@
+.new-header,
 .alt-header {
   padding: var(--horizontal-space);
   margin-top: 18px;
   margin-bottom: 15px;
   display: flex;
+}
+
+.alt-header {
   align-items: center;
   justify-content: center;
+}
+.new-header__column {
+  justify-content: flex-start;
+}
+
+.new-header i {
+  margin-right: 15px;
 }
 
 .alt-header__column {

@@ -1,5 +1,5 @@
 .setting-screen {
-  height: 110vh;
+  height: 140vh;
 }
 
 .settings__setting,
@@ -34,7 +34,7 @@
 }
 
 .setting-list {
-  marigin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .settings-list__extra {
   margin-top: 15px;
@@ -60,4 +60,21 @@
   position: absolute;
   left: 110px;
   top: 3px;
+}
+
+@keyframes settingIcon {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.settings__setting:hover i,
+.settings__setting-below:hover i {
+  animation: settingIcon 1s linear infinite;
 }
