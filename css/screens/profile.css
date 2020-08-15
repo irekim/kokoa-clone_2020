@@ -17,8 +17,10 @@
 .profile-gold {
   background-color: rgb(255, 150, 111);
 }
-/*background-image: url("https://i.pinimg.com/236x/f9/85/16/f985165b158b5602f70a738413b620cd.jpg");
-}*/
+
+.profile-jd {
+  background-image: url("https://www.lullu.net/imgdata/lullu_net/201911/2019112239039055.jpg");
+}
 
 .profile-avatar__gold:hover img,
 .profile-avatar:hover img {
@@ -109,7 +111,7 @@
   margin-top: 30px;
   color: white;
   opacity: 0.7;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .icon-row__icon span {
