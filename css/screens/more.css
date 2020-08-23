@@ -36,11 +36,15 @@
 
 .more-suggestions__icon-image img {
   width: 60px;
-  height: 60px;
+  height: 63px;
   border-radius: 10px;
 }
 
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+
+.more-suggestions__icon-text {
+  font-size: 13px;
 }

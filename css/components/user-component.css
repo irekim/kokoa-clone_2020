@@ -7,6 +7,23 @@
   display: flex;
   align-items: center;
 }
+
+@keyframes avatarAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.friends-screen .user-component__avatar:hover {
+  animation: avatarAnimation 0.5s ease-in-out infinite;
+}
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -15,28 +32,29 @@
 }
 .user-component__title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 .user-component__status,
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--grey-text);
 }
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
 }
 
 .user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 20px;
 }
 
 .user-component__title--not-bold {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .user-component__column:last-child {
@@ -49,6 +67,7 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+  font-size: 14px;
 }
 
 .user-component__chat-list {
@@ -60,10 +79,10 @@
 }
 
 .user-component__playlist {
-  border: 2px solid rgb(69, 231, 69);
+  border: 1.5px solid rgb(69, 231, 69);
   border-radius: 17px;
   padding: 5px 10px;
-  font-size: 13px;
+  font-size: 12px;
   display: flex;
 }
 
